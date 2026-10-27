@@ -194,6 +194,7 @@ export default function Page() {
             <footer className="closing"><div className="ornament"><span /> <Sparkles aria-hidden="true" /> <span /></div><p className="script">{copy.regards}</p><p>Haleema, Aamil Imran &amp; Dua Daneen</p><small><Compass aria-hidden="true" /> {copy.blessing}</small></footer>
           </div>
         </div>
+        <p className="site-credit" lang="en">Created by <a href="https://kadathanadtimes.com/about" target="_blank" rel="noopener noreferrer">Team Kadathanad Times</a></p>
       </section>
     </main>
   )

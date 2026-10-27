@@ -106,3 +106,8 @@ h1 { margin: 10px 0 4px; color: var(--olive); font: 400 clamp(3.6rem, 10vw, 7rem
   .lantern--right .lantern-chain { height: 36px; }
   .lantern .lantern-body { height: 52px; padding: 9px 3px 7px; }
 }
+
+.site-credit { width: fit-content; max-width: 100%; margin: 24px auto 0; padding: 8px 14px; border-radius: 999px; background: #fffaf2d9; color: #62634f; text-align: center; font: 400 .72rem/1.6 "DM Sans", sans-serif; }
+.site-credit a { color: var(--olive); font-weight: 600; text-decoration: underline; text-underline-offset: 3px; }
+.site-credit a:hover { color: #8c6d36; }
+.site-credit a:focus-visible { outline: 2px solid var(--gold); outline-offset: 3px; border-radius: 2px; }
